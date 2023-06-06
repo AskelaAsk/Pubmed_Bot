@@ -7,13 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1oA9oXP3W8CwFJk3QvvZ8qSmYWkM2b3kh
 """
 
-!pip install biopython 
-!pip install metapub
-!export NCBI_API_KEY=ac0fe1294f97226ea45d867b8eec49737d08
-!pip install openai
-!pip install --upgrade tiktoken
-!pip install pyTelegramBotAPI
-
 from Bio import Entrez
 from Bio import Medline
 
