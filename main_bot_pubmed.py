@@ -220,7 +220,7 @@ def process_genes(text, date):
         time.sleep(20)
 
         f.write(f"\n{answer}\n")
-        print(answer)
+        #print(answer)
       except Exception as e:
         print(e)
         pass
