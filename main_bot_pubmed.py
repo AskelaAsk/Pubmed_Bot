@@ -32,7 +32,7 @@ import telebot
 MAX_COUNT = 20000
 Entrez.email = 'asgardpobedit@gmail.com'
 TOKEN = '5651905947:AAE_hRUT5W8zof5lgMejNsZFGnE_utPwvlY' # вставить сюда токен вашего бота
-api = "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"
+api = "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"
 openai.api_key = api
 
 PROMT = 'You are the language model that can analyze scientific articles related to\
