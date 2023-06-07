@@ -31,9 +31,8 @@ import telebot
 
 MAX_COUNT = 20000
 Entrez.email = 'asgardpobedit@gmail.com'
-TOKEN = '5651905947:AAE_hRUT5W8zof5lgMejNsZFGnE_utPwvlY' # вставить сюда токен вашего бота
-api = "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"
-openai.api_key = api
+TOKEN = os.environ.get('TG_TOKKEN') # вставить сюда токен вашего бота
+openai.api_key  = os.environ.get('OPENAI_TOKKEN') 
 
 PROMT = 'You are the language model that can analyze scientific articles related to\
             cardiogenomics and provide accurate answers to user questions. \
