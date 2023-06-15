@@ -139,7 +139,7 @@ def process_genes(text, date):
   TERM = list(TERM[0])
 
   #Dieseases
-  diseases = ['cardiac',
+  diseases = ['', 'cardiac',
   'insulin',
   'diabetes',
   'lipoprotein',
