@@ -267,6 +267,9 @@ if __name__ == "__main__":
             process_genes(text, date_str)
             
             result_filename = 'result_genes.txt'
+            if (os.stat("result_genes.txt").st_size == 0): 
+              with open("result_genes.txt","+w") as f:
+                f.write("Articles not found")
 
             with open(result_filename, 'rb') as result_file:
                 bot.send_document(message.chat.id, result_file)
